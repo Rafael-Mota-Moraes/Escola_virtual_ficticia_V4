@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    margin: 0 auto;
+    width: 1280px;
+}
+
+@media screen and (max-width: 1200px){
+    .center{
+        width: 100%;
+        padding: 0 2%;
+    }
+}
+
+.header img{
+    height: 64px;
+}
+
+.header{
+    background-color: #427ef5;
+    height: 64px;
+}
+
+.menu{
+    padding-top: 1.80%;
+    float: right;
+}
+
+.menu ul li{
+    margin-left: 30px;
+    display: inline;
+    font-weight: bold;
+}
+
+.menu ul li a{
+    color: black;
+}
+
+
+.menu ul li a:hover{
+    color: rgb(51, 51, 51);
+}
+
+@media screen and (max-width: 768px){
+
+    .header{
+        height: 42px;
+    }
+
+    .header img{
+        display: none;
+    }
+    .menu{
+        float: none;
+        text-align: center;
+    }
+}
+
+/*fim da primeira sessao*/
+
+.icon{
+    text-align: center;
+}
+
+.sessao2{
+    background-color: #1f3d7a;
+    color: rgb(255, 255, 255);
+}
+
+.icon img{
+    width: 64px;
+    height: 64px;
+}
+
+.descricao-cabecalho{
+    text-align: center;
+}
+
+/* Fim da sessao2 */
+
+section.loja{
+    padding: 30px 0;
+}
+
+section.loja > .center{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.curso-wraper{
+    padding: 30px;
+    width: 33.333%;
+}
+
+.curso{
+    border: 1px solid black;
+    height: 100%;
+}
+
+.curso img{
+    max-width: 100%;
+}
+
+.curso h2{
+    text-align: center;
+    padding: 0 8px;
+    font-weight: 100;
+}
+
+.curso p{
+    font-weight: 100;
+    text-align: justify;
+}
+
+.curso button{
+    cursor: pointer;
+    margin-top: 10px;
+    height: 45px;
+    width: 100%;
+    border: 0;
+    background-color: #427ef5;
+    font-weight: bold;
+}
+
+.curso button a{
+    color: white;
+}
+
+.curso button:hover{
+    background-color: #203e79;
+}
+
+/**FIM DA LOJA**/
+
+/**form**/
+
+section.form{
+    background-color: #3264c9;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section.form textarea{
+    width: 340px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    resize: none;
+    border: 0;
+    background-color: #7d9fe4;
+}
+
+
+
+section.form ul li{
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+
+
+/**footer**/
+.footer{
+    text-align: center;
+    background-color: #427ef5;
+    height: 80px;
+}
+
+.footer h2{
+    padding-top: 2%;
+}
+
+@media screen and (max-width: 1024px){
+    .curso-wraper{
+        padding: 30px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .curso-wraper{
+        padding: 5% 10%;
+        width: 100%;
+    }
+}
